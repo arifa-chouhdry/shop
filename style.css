@@ -1,0 +1,181 @@
+    body {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Oleo Script', cursive;
+        text-align: center;
+        
+    }
+    
+    #title {
+        background-image: linear-gradient(#352e2e, #60687c, #352e2e);
+        padding: 20px 0px;
+        margin: 0px;
+    }
+    
+    .wallet {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffa69e;
+        background-image: linear-gradient(315deg, #ffa69e 0%, #5d4954 74%);
+    }
+    
+    .wallet input {
+        width: 80px;
+        border: 1px solid black;
+        padding: 10px 0px;
+        font-size: 20px;
+        color: red;
+        border-radius: 20px;
+    }
+    
+    .total {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #af8c9d;
+        background-image: linear-gradient(315deg, #af8c9d 0%, #8cacac 74%);
+        padding: 30px 0px;
+    }
+    
+    .total p {
+        width: 20px;
+        font-size: 40px;
+        border: none;
+        background: #efe2cc;
+        color: rgb(245, 104, 104);
+    }
+    
+    #image-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-image: linear-gradient(#2b2626, #60687c, #2b2626);
+        padding-bottom: 30px;
+    }
+    
+    .incre {
+        border: none;
+        padding: 8px 5px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        
+        background-image: linear-gradient(315deg, #9dc5c3 0%, #5e5c5c 74%);
+        text-align: center;
+        font-weight: bold;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-image: linear-gradient(315deg, #9dc5c3 0%, #5e5c5c 74%);;
+      }
+      
+      li {
+        float: left;
+      }
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-image: linear-gradient(#2b2626, #60687c, #2b2626);
+      }
+    .decre {
+        border: none;
+        padding: 8px 7px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        
+        background-image: linear-gradient(315deg, #9dc5c3 0%, #5e5c5c 74%);
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .add-sub {
+        padding: 8px 0px;
+        border: none;
+        background: #b8235a;
+        font-size: 14px;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .price {
+        background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+    }
+    
+    .alert {
+        background: black;
+        color: white;
+    }
+    
+    figure {
+        color: white;
+        
+        font-size: 12px;
+    }
+    
+    figure h1 {
+        color:black;
+        background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+    }
+    .fa-twitter{
+        border:1px solid black ;
+        border-radius: 50%;
+        padding: 20px 20px;
+        
+    }
+    .fa-youtube{
+        border:1px solid black ;
+        border-radius: 50%;
+        padding: 21px 20px;
+        margin: 0px 12px;         
+                                  
+    }
+    .fa-facebook-f{
+        border:1px solid black ;
+        border-radius: 50%;
+        padding: 20px 23px;
+        
+    }
+    .fa-facebook-f:hover{
+      background: blue;
+      color: white;
+    }
+    .fa-youtube:hover{
+      background: red;
+      color:white;
+    }
+    .fa-twitter:hover{
+     background: skyblue;
+    color: white;
+
+    }
+    footer{
+        text-align: center;
+        padding:2px 0px;
+    }
+    @media only screen and (max-width: 600px) {
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content : center;
+            width: 100%;
+            height: auto;
+        }
+        #image-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            height: auto;
+        }
+    }

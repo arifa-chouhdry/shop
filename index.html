@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script|Oswald|Roboto+Condensed&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Candle Shop</title>
+
+</head>
+
+<body>
+    <nav>
+            <ul>
+                    <li><a href="#image-container">Home</a></li>
+                    
+                    <li><a href="#image-container">product</a></li>
+                    <li><a href="#contact">About</a></li>
+                  </ul>
+                  
+    </nav>
+    <div class="main-container">
+        <h1 id="title">candle Shop</h1>
+        <div class="wallet">
+
+            <h1>I have Rs:</h1>
+            <input onclick="cash()" id="cash-value" type="number" min="0">
+        </div>
+        <div class="total">
+            <h1>your total is:</h1>
+            <p id="total-value"><span></span></p>
+        </div>
+        <div id="image-container">
+            <div class="image">
+                <figure>
+                    <figcaption class="price">Rs:10</figcaption>
+                    <img src="jar-candles.jpg" alt="image" height="170px" width="170px">
+                    <h1>jar-candle</h1>
+                </figure>
+                <form>
+                    <input type="button" onclick="addApple()" value="+" class="incre" />
+                    <input type="text" id="number" value="0" class="add-sub" />
+                    <input type="button" onclick="minusApple()" value="-" class="decre" />
+                </form>
+            </div>
+            <div class="image2">
+                <figure>
+                    <figcaption class="price">Rs:7</figcaption>
+                    <img src="scented-candle.jpg" alt="image" height="170px" width="170px">
+                    <h1>scented-candle</h1>
+                </figure>
+                <form>
+                    <input type="button" onclick="addOrange()" value="+" class="incre" />
+                    <input type="text" id="number2" value="0" class="add-sub" />
+                    <input type="button" onclick="minusOrange()" value="-" class="decre" />
+                </form>
+            </div>
+            <div class="image3">
+                <figure>
+                    <figcaption class="price">Rs:5</figcaption>
+                    <img src="scented-candle-2.jpg" alt="image" height="170px" width="170px">
+                    <h1>black n white
+                        candle
+                    </h1>
+                </figure>
+                <form>
+                    <input type="button" onclick="addBanana()" value="+" class="incre" />
+                    <input type="text" id="number3" value="0" class="add-sub" />
+                    <input type="button" onclick="minusBanana()" value="-" class="decre" />
+                </form>
+            </div>
+
+           
+        </div>
+        <footer>
+                <div id="contact">
+                        <h2>contact us</h2>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+        </footer>
+        <script src="script.js"></script>
+</body>
+
+</html>
